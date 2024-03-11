@@ -80,3 +80,117 @@ header {
 .logo {
     display: block;
 }
+
+.logo__title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: var(--color-primary);
+}
+
+.logo__subtitle {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: var(--color-light-xl);
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 29px;
+}
+
+.nav__item {
+    border-bottom: 3px solid transparent;
+    padding-bottom: 6px;
+    transition: all 0.3s;
+}
+
+.nav__item:hover {
+    border-color: var(--color-primary);
+}
+
+.nav__link {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-light-s);
+}
+
+.hero__content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.hero__desk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 460px;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: var(--color-light-xl);
+    padding-bottom: 50px;
+}
+
+.paragraph {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-s);
+    padding-bottom: 44px;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: var(--color-dark-3xl);
+    border-radius: 100px;
+    padding: 15px 45px;
+    width: 207px;
+    height: 52px;
+    background: var(--color-primary);
+}
+
+.hero__img-wrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__content {}
+
+.information__title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: var(--color-dark-l);
+}
+
+.information__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-xl);
+}
